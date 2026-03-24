@@ -285,7 +285,7 @@ export function buildUrl(
     case "lovable":
       return `${baseUrl}/?autosubmit=true#prompt=${encoded}`;
     case "netlify":
-      return `${baseUrl}?prompt=${encoded}&ref=prompts-chat`;
+      return `${baseUrl}?ref=prompts-chat#prompt=${encoded}`;
     case "mistral":
       return `${baseUrl}?q=${encoded}`;
     case "perplexity":
